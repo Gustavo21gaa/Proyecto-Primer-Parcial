@@ -1,0 +1,13 @@
+import Saludo from "../componentes/saludo";
+import Boton from "../componentes/boton";
+
+function Home() {
+  return (
+    <div>
+      <Saludo nombre="Gustavo" />
+      <Boton />
+    </div>
+  );
+}
+
+export default Home;

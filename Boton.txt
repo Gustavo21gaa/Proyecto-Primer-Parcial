@@ -1,0 +1,13 @@
+import { useState } from "react";
+
+function Boton() {
+  const [estado, setEstado] = useState(true);
+
+  return (
+    <button onClick={() => setEstado(!estado)}>
+      {estado ? "Encendido" : "Apagado"}
+    </button>
+  );
+}
+
+export default Boton;
